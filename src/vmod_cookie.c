@@ -14,7 +14,7 @@ Author: Lasse Karstensen <lasse@varnish-software.com>, July 2012.
 
 #include "vcc_if.h"
 
-#define MAX_COOKIEPART 1024   /* name or value maxsize */
+#define MAX_COOKIEPART 4096   /* name or value maxsize */
 #define MAX_COOKIESTRING 8196 /* cookie string maxlength */
 #define MAXCOOKIES 100
 
